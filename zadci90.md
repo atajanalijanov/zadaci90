@@ -41,3 +41,19 @@ if( s.length === 0) {
 }
 
 ```
+#### Eger setir 10 nyşandan uzyn bolsa, diňe ilkinji 10 nyşany al.
+```
+
+let s = 'arzsdgxhfcvblkjn;m';
+let s1 = '';
+if(s.length > 10) {
+    for ( let i = 0; i <=10; i++){
+        s1 = s1 + s[i];
+    }
+} else { 
+    console.log(s);
+}
+console.log(s1);
+
+
+```
