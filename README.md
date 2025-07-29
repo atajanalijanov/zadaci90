@@ -1,2 +1,0 @@
-# zadaci90
-string
