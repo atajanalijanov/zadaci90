@@ -140,3 +140,32 @@ if(s.length > 5){
 console.log(s1);
 
 ```
+#### 11.Setiriň ilkinji harpyny görkez.
+```
+
+let s = '12-081!@#Ztajan alijanow';
+for ( let i = 0; i < s.length; i++){
+    if (((s[i].codePointAt(0) >= 65) && (s[i].codePointAt(0) <= 90)) ||
+        ((s[i].codePointAt(0) >= 97) && (s[i].codePointAt(0) <= 122)))
+    {
+        console.log(s[i]);
+        return
+    }
+}
+
+```
+#### 12.Soňky harpyny al.
+```
+
+let s = '12-081!@#Ztajan alijanow';
+let c = '';
+for ( let i = 0; i < s.length; i++){
+    if (((s[i].codePointAt(0) >= 65) && (s[i].codePointAt(0) <= 90)) ||
+        ((s[i].codePointAt(0) >= 97) && (s[i].codePointAt(0) <= 122)))
+    {
+        c = s[i];
+    }
+}
+console.log(c);
+
+```
