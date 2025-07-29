@@ -30,3 +30,14 @@ let a = s.length;
 console.log(a);
 
 ```
+#### Setir boşmy diýip barla (length === 0).
+```
+
+let s = '';
+if( s.length === 0) {
+    console.log('true');
+} else {
+    console.log('false');
+}
+
+```
