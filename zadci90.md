@@ -89,3 +89,21 @@ if( s.length == s1.length ){
 }
 
 ```
+#### 8.Setiriň ýarysyna çenli (length / 2) gyrk.
+```
+
+let s = 'atajana';
+let s1 = '';
+if (s.length % 2 == 0){
+    for (let i = 0; i < Math.floor( s.length / 2 ); i++){
+        s1 = s1 + s[i];
+    }
+} else {
+    for (let i = 0; i <= Math.floor( s.length / 2 ); i++){
+        s1 = s1 + s[i];
+    }
+}
+console.log(s1);
+
+
+```
