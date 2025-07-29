@@ -77,3 +77,15 @@ for ( let i = 0; i <= k; i++){
 }
 
 ```
+#### 7.Iki setiriň uzynlygyny deňeşdir.
+```
+
+let s = 'Atajan';
+let s1 = 'Atajan';
+if( s.length == s1.length ){
+    console.log('den');
+} else {
+    console.log('den dal');
+}
+
+```
