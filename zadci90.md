@@ -1,11 +1,11 @@
-####  "hello" setiriniň uzynlygyny görkez.
+####  1."hello" setiriniň uzynlygyny görkez.
 ```
 
 let s = 'hello';
 console.log(s.length);
 
 ```
-####  "  space  " setirinde näçe nyşan bar?
+####  2."  space  " setirinde näçe nyşan bar?
 ```
 
 let s = ' space ';
@@ -22,7 +22,7 @@ for ( let i = 0; i < s.length; i++){
 console.log(k);
 
 ```
-#### Ulanyjynyň girizen setiriniň uzynlygyny al.
+#### 3.Ulanyjynyň girizen setiriniň uzynlygyny al.
 ```
 
 let s = 'Atajan';
@@ -30,7 +30,7 @@ let a = s.length;
 console.log(a);
 
 ```
-#### Setir boşmy diýip barla (length === 0).
+#### 4.Setir boşmy diýip barla (length === 0).
 ```
 
 let s = '';
@@ -41,7 +41,7 @@ if( s.length === 0) {
 }
 
 ```
-#### Eger setir 10 nyşandan uzyn bolsa, diňe ilkinji 10 nyşany al.
+#### 5.Eger setir 10 nyşandan uzyn bolsa, diňe ilkinji 10 nyşany al.
 ```
 
 let s = 'arzsdgxhfcvblkjn;m';
@@ -55,5 +55,25 @@ if(s.length > 10) {
 }
 console.log(s1);
 
+
+```
+#### 6.Diňe 3 nyşandan uzyn setirleri massiwe goş.
+```
+
+let s = '1234567890---==$%^&%^%atajan';
+let a = [];
+let s1 = '';
+let k = 0;
+for (let i of s){
+    s1 = s1 + i;
+    if(s1.length == 3){
+        k++
+        a[k] = s1;
+        s1 = '';
+    }
+}
+for ( let i = 0; i <= k; i++){
+    console.log(a[i]);
+}
 
 ```
