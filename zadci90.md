@@ -22,3 +22,11 @@ for ( let i = 0; i < s.length; i++){
 console.log(k);
 
 ```
+#### Ulanyjynyň girizen setiriniň uzynlygyny al.
+```
+
+let s = 'Atajan';
+let a = s.length;
+console.log(a);
+
+```
