@@ -107,3 +107,36 @@ console.log(s1);
 
 
 ```
+#### 9.Sanawdaky her bir sözüň uzynlygyny görkez.
+```
+
+let s = 'Atajan Alijanow';
+let s1 = '';
+let k = 0;
+s = s + ' ';
+for ( let i = 0; i < s.length; i++){
+    if(s[i] != ' '){
+        s1 = s1 + s[i];
+    } else {
+        k++
+        console.log(k,' nji sozink uzunlygy',s1.length);
+        s1 = '';
+    }
+}
+
+```
+#### 10.Eger setiriň uzynlygy > 5 bolsa, soňky 3 nyşany aýyr.
+```
+
+let s = 'atajan';
+let s1 = '';
+if(s.length > 5){
+    for ( let i = 0; i < s.length - 3 ; i ++){
+        s1 = s1 + s[i];
+    }
+} else {
+    console.log(s);
+}
+console.log(s1);
+
+```
