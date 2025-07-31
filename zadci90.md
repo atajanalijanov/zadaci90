@@ -337,3 +337,21 @@ if(s.indexOf(s1) != -1){
 }
 
 ```
+#### 27."goose" setirinde ikinji "o"-nyň indeksini tap.
+```
+
+let s = 'goose';
+let k = 0;
+let i1 = 0;
+for ( let i = 0; i < s.length ; i++ ){
+    if(s[i] == 'o'){
+        k++
+        i1 = i;
+    }
+    if(k == 2){
+        console.log(i1);
+        return
+    }
+}
+
+```
