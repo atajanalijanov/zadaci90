@@ -284,3 +284,10 @@ for (let i = 0; i < s.length; i++){
 console.log('yok');
 
 ```
+#### 22."hello" setirinde "lo"-nyň indeksini tap.
+```
+
+let s = 'hello';
+console.log(s.indexOf('lo'));
+
+```
