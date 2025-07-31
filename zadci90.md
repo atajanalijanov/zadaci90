@@ -302,3 +302,14 @@ if(s.indexOf('He') == 0){
 }
 
 ```
+#### 24.Setir ".js" bilen gutarýarmy?
+```
+
+let s = 'zadaci24.js';
+if(s.indexOf('.js') == s.length-3){
+    console.log('gutaryar');
+} else {
+    console.log('gutarmayar');
+}
+
+```
