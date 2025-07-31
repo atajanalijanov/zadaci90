@@ -234,3 +234,16 @@ for ( let i = 1; i < s.length+1; i++){
 console.log(s1);
 
 ```
+#### 18.Diňe täk sanly indeksdäki harplardan setir döret.
+```
+
+let s = 'atajan alijanow';
+let s1 = '';
+for (let i = 0; i< s.length;i++){
+    if(i % 2 != 0) {
+        s1 = s1 + s[i];
+    }
+}
+console.log(s1);
+
+```
