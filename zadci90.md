@@ -247,3 +247,14 @@ for (let i = 0; i< s.length;i++){
 console.log(s1);
 
 ```
+#### 19.Unicode kodlaryny 1 artdyryp şifrle.
+```
+
+let s = 'atajan alijanow';
+let s1 = '';
+for (let i = 0; i < s.length; i++){
+    s1 = s1 + String.fromCodePoint(s[i].codePointAt(0)+1);
+}
+console.log(s1);
+
+```
