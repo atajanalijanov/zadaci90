@@ -169,3 +169,57 @@ for ( let i = 0; i < s.length; i++){
 console.log(c);
 
 ```
+#### 13.3-nji indeksdäki nyşany al.
+```
+
+let s = '213=-3123!@$$ atajan alijanow';
+console.log(s[2]);
+
+```
+#### 14.Sözleriň sanawyndan her biriniň ilkinji harplaryndan täze setir döret.
+```
+
+let s = '294 0-= 3120 #$@% atajan alijanow'; 
+let s1 = '';
+let s2 = '';
+s = s + ' '; 
+for ( let i = 0; i < s.length; i++ ){
+    if(s[i] != ' '){
+        s1 = s1 + s[i];
+    } else {
+        s2 = s2 + s1[0];
+        s1 = '';
+    }
+}
+console.log(s2);
+
+```
+#### 15.Nyşanlaryň Unicode kodlarynyň jemi.
+```
+
+let s = 'atajan';
+let jem = 0;
+for ( let i = 0; i < s.length; i++){
+    jem = jem + s[i].codePointAt(0);
+}
+console.log(jem);
+
+```
+#### 16.Setiriň her ikinji harpyny al.
+```
+
+let s = 'atajan alijanow';
+let s1 = '';
+let s2 = '';
+s = s + ' ';
+for (let i = 0; i < s.length; i++){
+    if(s[i] != ' '){
+        s1 = s1 + s[i];
+    } else {
+        s2 = s2 + s1[1];
+        s1 = '';
+    }
+}
+console.log(s2);
+
+```
