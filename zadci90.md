@@ -313,3 +313,15 @@ if(s.indexOf('.js') == s.length-3){
 }
 
 ```
+#### 25."hello" setirinde "l"-iň iň soňky indeksini tap.
+```
+
+let s = 'hello';
+for (let i = 0; i < s.length; i++){
+    if(s[i] == 'l'){
+        k = i;
+    }
+}
+console.log(k);
+
+```
