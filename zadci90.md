@@ -291,3 +291,14 @@ let s = 'hello';
 console.log(s.indexOf('lo'));
 
 ```
+#### 23."Hello" "He" bilen başlaýarmy?
+```
+
+let s = 'Hello';
+if(s.indexOf('He') == 0){
+    console.log('baslanyar');
+} else {
+    console.log('baslanmayar');
+}
+
+```
