@@ -223,3 +223,14 @@ for (let i = 0; i < s.length; i++){
 console.log(s2);
 
 ```
+#### 17.Setiri tersine ýaz (harp boýunça).
+```
+
+let s = 'atajan';
+let s1 = '';
+for ( let i = 1; i < s.length+1; i++){
+    s1 = s1 + s[(s.length)-i];
+}
+console.log(s1);
+
+```
