@@ -258,3 +258,29 @@ for (let i = 0; i < s.length; i++){
 console.log(s1);
 
 ```
+#### 20.Indeksi 3-e bölünýän harplardan täze söz döret.
+```
+
+let s = 'atajan alijanow asxxx';
+let s1 = '';
+for ( let i = 0; i < s.length; i++){
+    if( i % 3 == 0 ){
+    s1 = s1 + s[i];
+    }
+}  
+console.log(s1);
+
+```
+#### 21."apple" setirinde "a" bar diýip barla.
+```
+
+let s = 'apple';
+for (let i = 0; i < s.length; i++){
+    if(s[i] == 'a'){
+        console.log('bar');
+        return
+    }
+}
+console.log('yok');
+
+```
