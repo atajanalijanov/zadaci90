@@ -355,3 +355,16 @@ for ( let i = 0; i < s.length ; i++ ){
 }
 
 ```
+#### 28.Setirde "a" näçe gezek bar diýip hasapla.
+```
+
+let s = 'atajan aliajanow';
+let k = 0;
+for (let i = 0; i < s.length; i++){
+    if(s[i] == 'a'){
+        k++
+    }
+}
+console.log(k);
+
+```
