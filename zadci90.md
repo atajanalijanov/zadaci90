@@ -325,3 +325,15 @@ for (let i = 0; i < s.length; i++){
 console.log(k);
 
 ```
+#### 26.Ulanyjynyň sözi jümlede barmy diýip barla.
+```
+
+let s = 'my name is atajan alijanow';
+let s1 = 'name';
+if(s.indexOf(s1) != -1){
+    console.log('bar');
+} else {
+    console.log('yok');
+}
+
+```
