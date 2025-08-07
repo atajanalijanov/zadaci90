@@ -400,3 +400,10 @@ s[0] = s[0].toLocaleLowerCase();
 console.log(s);
 
 ```
+#### 32."hello" uly harplara geçir.
+```
+
+let s = 'hello';
+console.log(s.toUpperCase());
+
+```
