@@ -378,3 +378,17 @@ while(s.indexOf('cat') != -1){
 }
 
 ```
+#### 30.Yzygiderli gaýtalanýan nyşan bar diýip barla.
+```
+
+let s = 'atajan alijanoww';
+for (let i = 0; i < s.length-1; i++ ){
+    if(s[i] == s[i+1]){
+        console.log('bar');
+        return
+    }
+}
+console.log('yok');
+
+
+```
