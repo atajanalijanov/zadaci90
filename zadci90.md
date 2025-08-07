@@ -392,3 +392,11 @@ console.log('yok');
 
 
 ```
+#### 31."Hello" kiçi harplara geçir.
+```
+
+let s = 'Hello';
+s[0] = s[0].toLocaleLowerCase();
+console.log(s);
+
+```
