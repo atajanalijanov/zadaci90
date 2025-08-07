@@ -368,3 +368,13 @@ for (let i = 0; i < s.length; i++){
 console.log(k);
 
 ```
+#### 29.Tekstde "cat" sözüniň ähli ýerleşýän ýerlerini tap.
+```
+
+let s = 'atajan alijanow cat white height cat';
+while(s.indexOf('cat') != -1){
+    console.log(s.indexOf('cat'));
+    s = s.replace('cat','aaa');
+}
+
+```
