@@ -421,3 +421,20 @@ if(s == s1){
 }
 
 ```
+#### 34.Setirde ähli harplar kiçimi diýip barla.
+```
+
+let s = 'atajan';
+let k = 0;
+for (let i = 0; i < s.length; i++){
+    if(s[i] == s[i].toLocaleLowerCase()){
+        k++
+    }
+}
+if(k == s.length){
+    console.log('ahli harplar kici');
+} else {
+    console.log('ahli harplar kici dal');
+}
+
+```
