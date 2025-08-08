@@ -529,3 +529,21 @@ while(i<s.length){
 console.log(s1);
 
 ```
+#### 40.Setiri "snake_case" formatyna geçir.
+```
+
+let s = 'Hello World';
+let i = -1;
+let s1 = '';
+while(i < s.length-1){
+    i++;
+    if(s[i] == ' '){
+        s1 += '_';
+    } else {
+        s1 += s[i].toLowerCase();
+    }
+
+}
+console.log(s1);
+
+```
