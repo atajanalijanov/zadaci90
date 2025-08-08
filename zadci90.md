@@ -562,3 +562,11 @@ console.log(s.slice(0,4));
 
 
 ```
+#### 43.Ilkinji 2 nyşany aýyr.
+```
+
+let s = 'hello';
+s = s.replace(s.slice(0,2),'');
+console.log(s);
+
+```
