@@ -570,3 +570,11 @@ s = s.replace(s.slice(0,2),'');
 console.log(s);
 
 ```
+#### 44.Soňky 3 nyşany al.
+```
+
+let s = 'hello';
+console.log(s.slice(s.length-3, s.length));
+
+
+```
