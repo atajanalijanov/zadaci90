@@ -448,3 +448,24 @@ console.log(s);
 
 
 ```
+#### 36.Her sözüň ilkinji harpyny uly harpa geçir.
+```
+
+let s = 'atajan alijanow';
+let s1 = '';
+s = ' ' + s;
+let i = -1;
+while (  i < s.length-1 ){
+    i++
+    if(s[i] == ' '){
+        s1 += ' ' + s[i+1].toUpperCase();
+        i++
+    }else{
+        s1 += s[i];
+    }
+}
+s1 = s1.replace(' ','');
+console.log(s1);
+
+
+```
