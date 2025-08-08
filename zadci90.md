@@ -438,3 +438,13 @@ if(k == s.length){
 }
 
 ```
+#### 35.Setiriň ilkinji harpyny uly harpa geçir.
+```
+
+let s = 'atajan alijanow';
+s = s[0].toUpperCase() + s;
+s = s.replace(s[1],'');
+console.log(s);
+
+
+```
