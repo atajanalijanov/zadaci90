@@ -547,3 +547,10 @@ while(i < s.length-1){
 console.log(s1);
 
 ```
+#### 41."hello" setirinden "ell" bölegini al.
+```
+
+let s = 'hello';
+console.log(s.slice(1,4));
+
+```
