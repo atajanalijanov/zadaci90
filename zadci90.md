@@ -554,3 +554,11 @@ let s = 'hello';
 console.log(s.slice(1,4));
 
 ```
+#### 42.Setiriň ilkinji 4 nyşanyny al.
+```
+
+let s = 'hello';
+console.log(s.slice(0,4));
+
+
+```
