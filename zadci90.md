@@ -511,3 +511,21 @@ console.log(s1);
 
 
 ```
+#### 39.Setiri "camelCase" formatyna geçir.
+```
+
+let s = 'hello world';
+let i = 0;
+let s1 = '';
+while(i<s.length){
+    if(s[i] != ' '){
+        s1 += s[i];
+    } else {
+        s1 += s[i+1].toUpperCase();
+        i++;
+    }
+    i++;
+}
+console.log(s1);
+
+```
