@@ -488,3 +488,26 @@ console.log(s1);
 
 
 ```
+#### 38.Diňe sesli harplary uly harpa geçir.
+```
+
+let s = 'atajan';
+let i = -1;
+let s1 = '';
+while ( i < s.length-1){
+    i++
+    if((s[i] == 'a')||
+    (s[i] == 'e')||
+    (s[i] == 'i')||
+    (s[i] == 'y')||
+    (s[i] == 'o')||
+    (s[i] == 'u')){
+        s1 += s[i].toUpperCase();
+        i++
+    }
+    s1 += s[i];
+}
+console.log(s1);
+
+
+```
