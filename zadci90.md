@@ -407,3 +407,17 @@ let s = 'hello';
 console.log(s.toUpperCase());
 
 ```
+#### 33.Setirleri harp ýagdaýyna garamazdan deňeşdir.
+```
+
+let s = 'aTaJan';
+let s1 = 'AtaJan';
+s = s.toUpperCase;
+s1 = s1.toUpperCase;
+if(s == s1){
+    console.log('den');
+} else {
+    console.log('den dal');
+}
+
+```
