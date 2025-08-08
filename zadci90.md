@@ -469,3 +469,22 @@ console.log(s1);
 
 
 ```
+#### 37.Harplaryň ýagdaýyny tersine öwür (uly → kiçi, kiçi → uly).
+```
+
+let s = 'Atajan Alijanow';
+let s1 = '';
+for (let i = 0; i < s.length; i++){
+    if (!(((s[i].codePointAt() >= 65)&&(s[i].codePointAt() <= 90)) ||
+    ((s[i].codePointAt() >= 97)&&(s[i].codePointAt() <= 122)))){ s1 += s[i]; }else{
+    if(s[i] === s[i].toLowerCase()){
+        s1 += s[i].toUpperCase();
+    }
+    if(s[i] === s[i].toUpperCase()){
+        s1 += s[i].toLowerCase();
+    }}
+}
+console.log(s1);
+
+
+```
