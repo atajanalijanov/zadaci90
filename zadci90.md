@@ -600,3 +600,13 @@ if(k % 2 != 0){
 }
 
 ```
+#### 46.Iki boşluk arasyndaky sözi al.
+```
+
+let s = 'atajan sowket erkin';
+let k = s.indexOf(' ');
+s = s.replace(' ','!');
+let k1 = s.indexOf(' ');
+console.log(s.slice(k+1,k1));
+
+```
