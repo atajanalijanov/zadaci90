@@ -627,3 +627,12 @@ console.log(s.slice(0,s.indexOf('@')));
 
 
 ```
+#### 49.Setirde bir jümläniň içinde ýerleşýän ( ) tekstini aýyr.
+```
+
+let s = 'atajan sowket erkin';
+s = s.replace(s.slice(0,s.indexOf(' ')),'');
+console.log(s);
+
+
+```
