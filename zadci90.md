@@ -619,3 +619,11 @@ console.log(s);
 
 
 ```
+#### 48.E-mailden @-dan öňki ady al.
+```
+
+let s = 'atajanalijanow5@gmail.com';
+console.log(s.slice(0,s.indexOf('@')));
+
+
+```
