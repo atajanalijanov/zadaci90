@@ -636,3 +636,20 @@ console.log(s);
 
 
 ```
+#### 50.Ilkinji 3 nyşany möçber bilen gurşap al.
+```
+
+let s = '12 1! #! #44asa rDFCD';
+let s1 = '';
+for (let i = 0; i < s.length; i++){
+    if(i == 0){
+        s1 += '(';
+    }
+    if(i == 3){
+        s1 += ')'
+    }
+    s1+= s[i]
+}
+console.log(s1);
+
+```
