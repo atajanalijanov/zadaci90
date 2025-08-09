@@ -610,3 +610,12 @@ let k1 = s.indexOf(' ');
 console.log(s.slice(k+1,k1));
 
 ```
+#### 47.Faýl adyndan giňeltmäni aýyr.
+```
+
+let s = 'zadaci47.js';
+s = s.replace(s.slice(s.indexOf('.'),s.length),'');
+console.log(s);
+
+
+```
