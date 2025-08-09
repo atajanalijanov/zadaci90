@@ -578,3 +578,25 @@ console.log(s.slice(s.length-3, s.length));
 
 
 ```
+#### 45.Jümläniň ortasyndaky sözi al.
+```
+
+let s = '1323 32 #!%$^ $%SA ASFf sdgd sglsk';
+let s1 = [];
+let s2 = '';
+let k = 0;
+s += ' '; 
+for (let i = 0; i < s.length; i++){
+    if(s[i] != ' '){
+        s2 += s[i]; 
+    } else {
+        k++
+        s1[k] = s2;
+        s2 = '';
+    }
+}
+if(k % 2 != 0){
+    console.log(s1[k-Math.floor(k / 2)]);
+}
+
+```
