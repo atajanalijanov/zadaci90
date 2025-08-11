@@ -661,3 +661,11 @@ let s = 'atajan alijanow cat white height cat';
     console.log(s);
     
 ```
+#### 52.Setirde ähli boşluklary aýyr.
+```
+
+let s = 'addd qADCCad @@$433 #%54';
+s = s.replaceAll(' ','');
+console.log(s);
+
+```
