@@ -693,3 +693,20 @@ s = s.replace('e','3');
 console.log(s);
 
 ```
+#### 56.Setiriň başyndaky we soňundaky boşluklary gyrk.
+```
+let s = '  atajan   ';
+let i1 = 0;
+while(s[0] == ' '){
+    s = s.replace(' ','');
+}
+for (let i = s.length-1; i > 0; i--){
+    if(s[i] == ' '){
+        i1 = i;
+    } else {
+        console.log(s.slice(0,i1));
+        return
+    }
+}
+
+```
