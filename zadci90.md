@@ -669,3 +669,11 @@ s = s.replaceAll(' ','');
 console.log(s);
 
 ```
+#### 53.Sanawdaky ähli “,” nyşanlaryny aýyr.
+```
+
+let s = 'menin adym, atajan, alijanow';
+s = s.replaceAll(',','');
+console.log(s);
+
+```
