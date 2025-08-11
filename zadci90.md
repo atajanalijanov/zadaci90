@@ -653,3 +653,11 @@ for (let i = 0; i < s.length; i++){
 console.log(s1);
 
 ```
+#### 51."cat"-i "dog" bilen çalşyr.
+```
+
+let s = 'atajan alijanow cat white height cat'; 
+    s = s.replaceAll('cat','dog')
+    console.log(s);
+    
+```
