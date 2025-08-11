@@ -677,3 +677,11 @@ s = s.replaceAll(',','');
 console.log(s);
 
 ```
+#### 54.Aýratynlykda ähli "a" nyşanlaryny "@" bilen çalşyr.
+```
+
+let s = 'atajan alijanow';
+s = s.replaceAll('a','@');
+console.log(s);
+
+```
