@@ -685,3 +685,11 @@ s = s.replaceAll('a','@');
 console.log(s);
 
 ```
+#### 55.Diňe ilkinji "e" nyşanyny "3" bilen çalşyr.
+```
+
+let s = 'atajan erkine';
+s = s.replace('e','3');
+console.log(s);
+
+```
