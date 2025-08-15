@@ -722,3 +722,16 @@ s1 += s;
 console.log(s1);
 
 ```
+#### 58.Sözi 3 gezek yzly-yzyna gaýtala.
+```
+
+let s = 'atajan 34 dd gbb fh90m ';
+let s1 = '';
+for (let i = 0; i < s.length; i++){
+    if (!((s[i].codePointAt() >= 48)&&(s[i].codePointAt() <= 57))){
+        s1 += s[i]; 
+    }
+}
+console.log(s1);
+
+```
