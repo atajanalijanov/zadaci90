@@ -710,3 +710,15 @@ for (let i = s.length-1; i > 0; i--){
 }
 
 ```
+#### 57.Setiri 10 nyşana çenli nol bilen doldur (çepden).
+```
+
+let s = 'atajan';
+let s1 = '';
+for (let i = 1; i <= 10; i++){
+    s1 += '0';
+}
+s1 += s;
+console.log(s1);
+
+```
