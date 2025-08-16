@@ -722,7 +722,7 @@ s1 += s;
 console.log(s1);
 
 ```
-#### 58.Sözi 3 gezek yzly-yzyna gaýtala.
+#### 59.Setirden ähli sanlary aýyr.
 ```
 
 let s = 'atajan 34 dd gbb fh90m ';
