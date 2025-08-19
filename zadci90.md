@@ -735,3 +735,11 @@ for (let i = 0; i < s.length; i++){
 console.log(s1);
 
 ```
+#### 63.E-maili at we domen boýunça böl.
+```
+
+let s = 'atajanalijanow5@gmail.com';
+console.log(s.slice(0,s.indexOf('@')));
+console.log(s.slice(s.indexOf('@')+1,s.length));
+ 
+```
